@@ -7,9 +7,9 @@
 
   <title>Rebase Technologies | Enterprise, Cloud, Architecture, AI</title>
 
-  <link rel="canonical" href="https://www.rebasetech.ca">
+  <link rel="canonical" href="https://rebasetech.ca">
   <meta name="description"
-    content="Rebase Technologies provides cloud architecture consulting, AI automation systems, and privacy-focused infrastructure design.">
+    content="Rebase Technologies provides IT and business consulting services for medium to large sized clients across Canada.">
 
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -18,17 +18,179 @@
     }
   </script>
   <script src="https://unpkg.com/lucide@latest"></script>
+
   <script type="application/ld+json">
-    {
+  {
     "@context":"https://schema.org",
-    "@type":"ProfessionalService",
-    "name":"Rebase Technologies",
-    "url":"https://www.rebasetech.ca",
-    "serviceType":"IT Consulting",
-    "email":"projects@rebase.com",
-    "description":"Cloud architecture consulting, AI automation systems, and privacy-focused infrastructure.",
-    "areaServed":"Global"
-    }
+    "@graph":[
+      {
+        "@type":"Organization",
+        "@id":"https://rebasetech.ca/#organization",
+        "name":"Rebase Technologies",
+        "url":"https://rebasetech.ca",
+        "logo":"https://rebasetech.ca/logo-light.png",
+        "email":"projects@rebasetech.ca",
+        "description":"IT and business consulting, custom software engineering, cloud, systems architecture, infrastructure modernization, AI integration and automation, with a focus on privacy and security.",
+        "sameAs":[
+          "https://www.linkedin.com/company/mytech"
+        ],
+        "contactPoint":{
+          "@type":"ContactPoint",
+          "contactType":"sales",
+          "email":"projects@rebasetech.ca"
+        }
+      },
+
+      {
+        "@type":"ProfessionalService",
+        "@id":"https://rebasetech.ca/#service-business",
+        "name":"Rebase Technologies",
+        "url":"https://rebasetech.ca",
+        "serviceType":[
+          "IT Consulting",
+          "Cloud Architecture",
+          "AI Automation",
+          "Infrastructure Engineering"
+        ],
+        "areaServed":[
+          { "@type":"Country", "name":"Canada" },
+          { "@type":"Country", "name":"United States" },
+          { "@type":"Country", "name":"United Kingdom" }
+        ],
+        "provider":{
+          "@id":"https://rebasetech.ca/#organization"
+        }
+      },
+
+      {
+        "@type":"Service",
+        "@id":"https://rebasetech.ca/#software-engineering",
+        "name":"Software Engineering",
+        "description":"Design and development of custom software solutions.",
+        "provider":{
+          "@id":"https://rebasetech.ca/#organization"
+        },
+        "url":"https://rebasetech.ca/#software-engineering"
+      },
+
+      {
+        "@type":"Service",
+        "@id":"https://rebasetech.ca/#cloud",
+        "name":"Cloud",
+        "description":"Build resilient, scalable, and cost-effective cloud infrastructures.",
+        "provider":{
+          "@id":"https://rebasetech.ca/#organization"
+        },
+        "url":"https://rebasetech.ca/#cloud"
+      },
+
+      {
+        "@type":"Service",
+        "@id":"https://rebasetech.ca/#systems-architecture",
+        "name":"Systems Architecture",
+        "description":"Durable systems, software and enterprise architectures.",
+        "provider":{
+          "@id":"https://rebasetech.ca/#organization"
+        },
+        "url":"https://rebasetech.ca/#systems-architecture"
+      },
+
+      {
+        "@type":"Service",
+        "@id":"https://rebasetech.ca/#infrastructure-modernization",
+        "name":"Infrastructure Modernization",
+        "description":"Modernize legacy systems and ensure a seamless transition to more efficient, maintainable infrastructures.",
+        "provider":{
+          "@id":"https://rebasetech.ca/#organization"
+        },
+        "url":"https://rebasetech.ca/#infrastructure-modernization"
+      },
+
+      {
+        "@type":"Service",
+        "@id":"https://rebasetech.ca/#ai-integration-automation",
+        "name":"AI Integration & Automation",
+        "description":"Integrate AI into your systems to automate repetitive tasks, enhance decision-making capabilities, and optimize operational workflows.",
+        "provider":{
+          "@id":"https://rebasetech.ca/#organization"
+        },
+        "url":"https://rebasetech.ca/#ai-integration-automation"
+      },
+
+      {
+        "@type":"Service",
+        "@id":"https://rebasetech.ca/#privacy",
+        "name":"Privacy by Design",
+        "description":"Privacy by default via thoughtful architecture, secure data handling, and careful consideration of system boundaries.",
+        "provider":{
+          "@id":"https://rebasetech.ca/#organization"
+        },
+        "url":"https://rebasetech.ca/#privacy"
+      },
+
+      {
+        "@type":"WebSite",
+        "@id":"https://rebasetech.ca/#website",
+        "url":"https://rebasetech.ca",
+        "name":"Rebase Technologies",
+        "publisher":{
+          "@id":"https://rebasetech.ca/#organization"
+        }
+      },
+
+      {
+        "@type":"WebPage",
+        "@id":"https://rebasetech.ca/#webpage",
+        "url":"https://rebasetech.ca",
+        "name":"Rebase Technologies",
+        "isPartOf":{
+          "@id":"https://rebasetech.ca/#website"
+        },
+        "about":{
+          "@id":"https://rebasetech.ca/#organization"
+        }
+      },
+
+      {
+        "@type":"FAQPage",
+        "@id":"https://rebasetech.ca/#faq",
+        "mainEntity":[
+          {
+            "@type":"Question",
+            "name":"What does Rebase Technologies do?",
+            "acceptedAnswer":{
+              "@type":"Answer",
+              "text":"Rebase Technologies provides IT and business consulting services for medium to large sized clients across Canada."
+            }
+          },
+          {
+            "@type":"Question",
+            "name":"What services does Rebase Technologies provide?",
+            "acceptedAnswer":{
+              "@type":"Answer",
+              "text":"Services include custom software engineering, cloud, systems architecture, infrastructure modernization, AI integration and automation, with a focus on privacy and security."
+            }
+          },
+          {
+            "@type":"Question",
+            "name":"Where does Rebase Technologies provide services?",
+            "acceptedAnswer":{
+              "@type":"Answer",
+              "text":"Rebase Technologies works with clients in Canada, the United States, and the United Kingdom."
+            }
+          },
+          {
+            "@type":"Question",
+            "name":"Where is Rebase Technologies located?",
+            "acceptedAnswer":{
+              "@type":"Answer",
+              "text":"Rebase Technologies based in Vancouver, British Columbia, Canada."
+            }
+          }
+        ]
+      }
+    ]
+  }
   </script>
 
   <style>
@@ -42,7 +204,7 @@
   <header class="bg-white dark:bg-gray-900 shadow-sm sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
       <a href="/">
-        <img src="images/logo-light.png" class="h-16 w-auto" alt="Rebase Technologies">
+        <img id="logo" src="images/logo-light.png" class="h-16 w-auto" alt="Rebase Technologies">
       </a>
       <nav class="hidden md:flex gap-8 text-base font-semibold">
         <a href="#services" class="hover:text-green-600">Services</a>
@@ -56,7 +218,7 @@
         <button id="darkToggle">
           <i data-lucide="moon"></i>
         </button>
-        <a href="mailto:projects@rebase.com" class="bg-[#4fb46b] text-white px-4 py-2 rounded-lg hover:bg-green-700">
+        <a href="mailto:projects@rebasetech.ca" class="bg-[#4fb46b] text-white px-4 py-2 rounded-lg hover:bg-green-700">
           Let's Talk
         </a>
       </div>
@@ -76,7 +238,7 @@
         <span id="HERO-P3">We bring enterprise consulting and IT engineering experience to companies that need help
           navigating today's evolving business and technical challenges.</span>
       </p>
-      <a href="mailto:projects@rebase.com" class="bg-[#4fb46b] text-white px-6 py-3 rounded-lg hover:bg-green-700">
+      <a href="mailto:projects@rebasetech.ca" class="bg-[#4fb46b] text-white px-6 py-3 rounded-lg hover:bg-green-700">
         Let's Talk
       </a>
     </div>
@@ -88,7 +250,7 @@
 
       <!-- Left: Image -->
       <div class="md:w-1/3 w-full flex justify-center md:justify-start">
-        <img src="images/begins3.jpg" alt="Rebase Technologies foundation image"
+        <img src="images/begins.jpg" alt="Rebase Technologies foundation image"
           class="w-full max-w-xs rounded-lg shadow-md h-64">
       </div>
 
@@ -123,7 +285,7 @@
       <div class="grid md:grid-cols-3 gap-10">
         <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg">
           <i data-lucide="code" class="mb-4 text-[#1E73D8]"></i>
-          <h3 class="font-semibold text-xl mb-3">Software Engineering</h3>
+          <h3 id="software-engineering" class="font-semibold text-xl mb-3">Software Engineering</h3>
           <p id="SERVICES-P6">
             We design and develop custom software solutions tailored to your unique operational and regulatory needs.
             When off-the-shelf products fall short, our team designs robust, scalable systems that solve real problems
@@ -132,7 +294,7 @@
         </div>
         <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg">
           <i data-lucide="cloud" class="mb-4 text-[#1E73D8]"></i>
-          <h3 class="font-semibold text-xl mb-3">Cloud</h3>
+          <h3 id="cloud" class="font-semibold text-xl mb-3">Cloud</h3>
           <p id="SERVICES-P1">
             Leverage the power of the cloud to build resilient, scalable, and cost-effective infrastructures. We design
             cloud-based systems that ensure high availability and business continuity, all while
@@ -141,7 +303,7 @@
         </div>
         <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg">
           <i data-lucide="layers" class="mb-4 text-[#1E73D8]"></i>
-          <h3 class="font-semibold text-xl mb-3">Systems Architecture</h3>
+          <h3 id="systems-architecture" class="font-semibold text-xl mb-3">Systems Architecture</h3>
           <p id="SERVICES-P3">
             We create clear, durable system architectures that serve as the blueprint for complex software and
             infrastructure projects. Our expertise ensures your systems are
@@ -150,7 +312,7 @@
         </div>
         <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg">
           <i data-lucide="server" class="mb-4 text-[#1E73D8]"></i>
-          <h3 class="font-semibold text-xl mb-3">Infrastructure Modernization</h3>
+          <h3 id="infrastructure-modernization" class="font-semibold text-xl mb-3">Infrastructure Modernization</h3>
           <p id="SERVICES-P2">
             Modernize legacy systems and ensure a seamless transition to more efficient, maintainable infrastructures.
             We assess your current systems, identify bottlenecks, and guide you through the process of adopting
@@ -159,7 +321,7 @@
         </div>
         <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg">
           <i data-lucide="cpu" class="mb-4 text-[#1E73D8]"></i>
-          <h3 class="font-semibold text-xl mb-3">AI Integration & Automation</h3>
+          <h3 id="ai-integration-automation" class="font-semibold text-xl mb-3">AI Integration & Automation</h3>
           <p id="SERVICES-P4">
             Transform your business with cutting-edge AI technologies. We integrate AI into your systems to automate
             repetitive tasks, enhance decision-making capabilities, and optimize operational workflows, empowering your
@@ -168,11 +330,12 @@
         </div>
         <div class="p-6 bg-white dark:bg-gray-900 rounded-xl shadow hover:shadow-lg">
           <i data-lucide="shield" class="mb-4 text-[#1E73D8]"></i>
-          <h3 class="font-semibold text-xl mb-3">Privacy by Design</h3>
+          <h3 id="privacy" class="font-semibold text-xl mb-3">Privacy by Design</h3>
           <p id="SERVICES-P5">
-            We embed privacy principles into the heart of your infrastructure. our adherence to best-practices help
-            organizations structure infrastructure and systems so that privacy is preserved through thoughtful
-            architecture, secure data handling, and careful consideration of system boundaries.
+            We build systems with privacy at their core. Guided by privacy principles every step of the way, we help
+            organizations create infrastructure that safeguards data through thoughtful architecture, secure handling,
+            and well-defined system boundaries. This approach ensures that privacy is not an afterthought, but an
+            integral part of how your systems operate and evolve.
           </p>
         </div>
       </div>
@@ -190,7 +353,7 @@
       </p>
 
       <div class="space-y-6">
-        <div class="accordion-item border-b">
+        <div class="accordion-item">
           <button id="accordion-button-1"
             class="accordion-button w-full text-left flex justify-between items-center py-1 px-6 text-xl text-gray-900 dark:text-white">
             Initial Consultation
@@ -201,23 +364,25 @@
           </button>
           <div id="accordion-content-1"
             class="accordion-content hidden px-6 py-4 text-gray-700 dark:text-gray-300 text-left max-w-5xl">
-            <p class="mb-4 pl-7">We start by engaging in an open conversation with you to understand your
-              challenges
-              and objectives. This no-cost consultation is an opportunity for you to explain your business needs, pain
-              points,
-              and frustrations with existing systems and processes. It's a chance for us to ask the right questions,
-              gain insight
-              into your organization's needs, and clarify the specific outcomes you want to achieve.
-            </p>
-            <p class="pl-7">By the end of the
-              consultation, we’ll have a working understanding of the objectives, potential scope and success
-              criteria.
-              This lays a strong foundation for a successful outcome, where every next step is guided by what
-              matters most to you.</p>
+            <div class="border-r-2 border-blue-200 dark:border-green-200 pr-6 mr-6 py-2 inline-block">
+              <p class="mb-4 pl-3">We start by engaging in an open conversation with you to understand your
+                challenges
+                and objectives. This no-cost consultation is an opportunity for you to explain your business needs, pain
+                points,
+                and frustrations with existing systems and processes. It's a chance for us to ask the right questions,
+                gain insight
+                into your organization's needs, and clarify the specific outcomes you want to achieve.
+              </p>
+              <p class="pl-3">By the end of the
+                consultation, we’ll have a working understanding of the objectives, potential scope and success
+                criteria.
+                This lays a strong foundation for a successful outcome, where every next step is guided by what
+                matters most to you.</p>
+            </div>
           </div>
           <hr class="border-t border-gray-400 dark:border-gray-700 mt-4 mx-6">
         </div>
-        <div class="accordion-item border-b">
+        <div class="accordion-item">
           <button id="accordion-button-2"
             class="accordion-button w-full text-left flex justify-between items-center py-1 px-6 text-xl text-gray-900 dark:text-white">
             Exploratory and Analysis
@@ -228,21 +393,25 @@
           </button>
           <div id="accordion-content-2"
             class="accordion-content hidden px-6 py-2 text-gray-700 dark:text-gray-300 text-left max-w-5xl">
-            <p class="mb-4 pl-7">Upon engagement, we dive deeper into your existing systems and processes to
-              uncover the
-              full scope
-              of the challenges and opportunities. Our team works closely with your internal stakeholders to assess how
-              your current infrastructure, software, and workflows align with your business goals. We identify
-              bottlenecks, inefficiencies, and potential vulnerabilities, while also uncovering hidden strengths within
-              your systems.
-            </p>
-            <p class="pl-7">Through this detailed analysis, we gain a comprehensive understanding of your current
-              systems, providing a solid foundation for the strategic improvements ahead. The insights we gather allow
-              us to propose thoughtful, sustainable solutions that drive long-term progress for your organization.</p>
+            <div class="border-r-2 border-blue-200 dark:border-green-200 pr-6 mr-6 py-2 inline-block">
+              <p class="mb-4 pl-3">Upon engagement, we dive deeper into your existing systems and processes to
+                uncover the
+                full scope
+                of the challenges and opportunities. Our team works closely with your internal stakeholders to assess
+                how
+                your current infrastructure, software, and workflows align with your business goals. We identify
+                bottlenecks, inefficiencies, and potential vulnerabilities, while also uncovering hidden strengths
+                within
+                your systems.
+              </p>
+              <p class="pl-3">Through this detailed analysis, we gain a comprehensive understanding of your current
+                systems, providing a solid foundation for the strategic improvements ahead. The insights we gather allow
+                us to propose thoughtful, sustainable solutions that drive long-term progress for your organization.</p>
+            </div>
           </div>
           <hr class="border-t border-gray-400 dark:border-gray-700 mt-4 mx-6">
         </div>
-        <div class="accordion-item border-b">
+        <div class="accordion-item">
           <button id="accordion-button-3"
             class="accordion-button w-full text-left flex justify-between items-center py-1 px-6 text-xl text-gray-900 dark:text-white">
             Planning and Design
@@ -253,22 +422,26 @@
           </button>
           <div id="accordion-content-3"
             class="accordion-content hidden px-6 py-2 text-gray-700 dark:text-gray-300 text-left max-w-5xl">
-            <p class="mb-4 pl-7">After fully understanding your needs and systems, we begin crafting a solution that
-              directly
-              addresses
-              your unique challenges. In this phase, we develop a comprehensive plan that outlines the steps, timeline,
-              and resources required to bring the solution to life. Our focus is on ensuring the proposed solution
-              aligns with your strategic goals while addressing both technical and operational needs.
-            </p>
-            <p class="pl-7">We create detailed
-              architecture blueprints, technical specifications, and a roadmap that serves as a guide for development.
-              We also take care to prioritize flexibility, ensuring that the design is adaptable to future changes. The
-              outcome is a clear, actionable strategy that provides both short-term solutions and a robust foundation
-              for sustainable growth.</p>
+            <div class="border-r-2 border-blue-200 dark:border-green-200 pr-6 mr-6 py-2 inline-block">
+              <p class="mb-4 pl-3">After fully understanding your needs and systems, we begin crafting a solution that
+                directly
+                addresses
+                your unique challenges. In this phase, we develop a comprehensive plan that outlines the steps,
+                timeline,
+                and resources required to bring the solution to life. Our focus is on ensuring the proposed solution
+                aligns with your strategic goals while addressing both technical and operational needs.
+              </p>
+              <p class="pl-3">We create detailed
+                architecture blueprints, technical specifications, and a roadmap that serves as a guide for development.
+                We also take care to prioritize flexibility, ensuring that the design is adaptable to future changes.
+                The
+                outcome is a clear, actionable strategy that provides both short-term solutions and a robust foundation
+                for sustainable growth.</p>
+            </div>
           </div>
           <hr class="border-t border-gray-400 dark:border-gray-700 mt-4 mx-6">
         </div>
-        <div class="accordion-item border-b">
+        <div class="accordion-item">
           <button id="accordion-button-4"
             class="accordion-button w-full text-left flex justify-between items-center py-1 px-6 text-xl text-gray-900 dark:text-white">
             Solution Development and Execution
@@ -279,23 +452,26 @@
           </button>
           <div id="accordion-content-4"
             class="accordion-content hidden px-6 py-2 text-gray-700 dark:text-gray-300 text-left max-w-5xl">
-            <p class="mb-4 pl-7">With the design in place, we begin the process of building the solution, taking into
-              account
-              all the
-              requirements, insights, and strategic objectives established earlier. Our engineers work to turn the plan
-              into reality, focusing on creating a system that is efficient, reliable, and scalable. During the
-              development process, we continuously validate the solution against your objectives to ensure that
-              everything stays on track. We prioritize robust, secure, and scalable coding practices, and leverage the
-              latest technologies to meet your organization's needs.
-            </p>
-            <p class="pl-7">Our development cycle is collaborative, keeping you
-              informed and involved at every stage to ensure the solution is aligned with your vision. This is where
-              your idea becomes a functioning system, ready to solve the problems and achieve the goals defined in
-              earlier stages.</p>
+            <div class="border-r-2 border-blue-200 dark:border-green-200 pr-6 mr-6 py-2 inline-block">
+              <p class="mb-4 pl-3">With the design in place, we begin the process of building the solution, taking into
+                account
+                all the
+                requirements, insights, and strategic objectives established earlier. Our engineers work to turn the
+                plan
+                into reality, focusing on creating a system that is efficient, reliable, and scalable. During the
+                development process, we continuously validate the solution against your objectives to ensure that
+                everything stays on track. We prioritize robust, secure, and scalable coding practices, and leverage the
+                latest technologies to meet your organization's needs.
+              </p>
+              <p class="pl-3">Our development cycle is collaborative, keeping you
+                informed and involved at every stage to ensure the solution is aligned with your vision. This is where
+                your idea becomes a functioning system, ready to solve the problems and achieve the goals defined in
+                earlier stages.</p>
+            </div>
           </div>
           <hr class="border-t border-gray-400 dark:border-gray-700 mt-4 mx-6">
         </div>
-        <div class="accordion-item border-b">
+        <div class="accordion-item">
           <button id="accordion-button-5"
             class="accordion-button w-full text-left flex justify-between items-center py-1 px-6 text-xl text-gray-900 dark:text-white">
             Final Implementation and Handoff
@@ -306,20 +482,23 @@
           </button>
           <div id="accordion-content-5"
             class="accordion-content hidden px-6 py-2 text-gray-700 dark:text-gray-300 text-left max-w-5xl">
-            <p class="mb-4 pl-7">After the solution is developed and thoroughly quality-tested, we focus on
-              deplying and integrating into your existing processes. We ensure all components are working as intended,
-              and we collaborate closely with your teams to
-              make any necessary adjustments, ensuring the transition is as smooth as possible.
-            </p>
-            <p class="pl-7">Once live, we work with your teams to ensure everything is
-              functioning as expected. We offer post-implementation support to address any issues that may arise and
-              assist with any necessary adjustments. With this support in place, your organization can confidently rely
-              on the system to deliver the expected outcomes, while maintaining the flexibility to make future
-              enhancements.</p>
+            <div class="border-r-2 border-blue-200 dark:border-green-200 pr-6 mr-6 py-2 inline-block">
+              <p class="mb-4 pl-3">After the solution is developed and thoroughly quality-tested, we focus on
+                deplying and integrating into your existing processes. We ensure all components are working as intended,
+                and we collaborate closely with your teams to
+                make any necessary adjustments, ensuring the transition is as smooth as possible.
+              </p>
+              <p class="pl-3">Once live, we work with your teams to ensure everything is
+                functioning as expected. We offer post-implementation support to address any issues that may arise and
+                assist with any necessary adjustments. With this support in place, your organization can confidently
+                rely
+                on the system to deliver the expected outcomes, while maintaining the flexibility to make future
+                enhancements.</p>
+            </div>
           </div>
           <hr class="border-t border-gray-400 dark:border-gray-700 mt-4 mx-6">
         </div>
-        <div class="accordion-item border-b">
+        <div class="accordion-item">
           <button id="accordion-button-6"
             class="accordion-button w-full text-left flex justify-between items-center py-1 px-6 text-xl text-gray-900 dark:text-white">
             Ongoing Support and Training
@@ -330,16 +509,18 @@
           </button>
           <div id="accordion-content-6"
             class="accordion-content hidden px-6 py-2 text-gray-700 dark:text-gray-300 text-left max-w-5xl">
-            <p class="mb-4 pl-7">After delivery, we remain an active partner in your success. We offer optional
-              tech-support
-              services to ensure that any questions, issues, or updates are addressed promptly. Whether it’s
-              troubleshooting minor issues or adding new features, we’re here to keep your system running smoothly.
-            </p>
-            <p class="pl-7">Additionally, we provide optional comprehensive training to your teams and stake-holders,
-              ensuring that they understand
-              how to use
-              the new system to its fullest potential. With training in place, your organization can maximize the
-              benefits of the solution we’ve built, ensuring long-term success. </p>
+            <div class="border-r-2 border-blue-200 dark:border-green-200 pr-6 mr-6 py-2 inline-block">
+              <p class="mb-4 pl-3">After delivery, we remain an active partner in your success. We offer optional
+                tech-support
+                services to ensure that any questions, issues, or updates are addressed promptly. Whether it’s
+                troubleshooting minor issues or adding new features, we’re here to keep your system running smoothly.
+              </p>
+              <p class="pl-3">Additionally, we provide optional comprehensive training to your teams and stake-holders,
+                ensuring that they understand
+                how to use
+                the new system to its fullest potential. With training in place, your organization can maximize the
+                benefits of the solution we’ve built, ensuring long-term success. </p>
+            </div>
           </div>
           <hr class="border-t border-gray-400 dark:border-gray-700 mt-4 mx-6">
         </div>
@@ -509,7 +690,7 @@
     </div>
     <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-12 items-stretch">
       <div class="md:w-1/3 w-full flex-shrink-0">
-        <img src="images/who4.jpg" alt="Rebase team collaborating"
+        <img src="images/who.jpg" alt="Rebase team collaborating"
           class="w-full h-full object-cover rounded-lg shadow-md">
       </div>
       <div class="md:w-2/3 w-full flex flex-col">
@@ -562,40 +743,11 @@
 
     <h2 class="text-3xl font-bold mb-16">Effective solutions require a solid foundation.</h2>
     <!-- <p class="mb-16">Let’s talk about your project.</p> -->
-    <a href="mailto:projects@rebase.com"
+    <a href="mailto:projects@rebasetech.ca"
       class="bg-white text-green-700 dark:bg-gray-600 dark:text-white px-6 py-3 rounded-lg font-semibold">
       Let's Talk About Your Project
     </a>
   </section>
-
-  <!-- <section id="vancouver" class="py-20 bg-white dark:bg-gray-800">
-    <div class="max-w-4xl mx-auto px-6">
-      <div class="text-gray-700 dark:text-gray-300 text-justify space-y-4">
-        <img src="images/vancouver.jpg" alt="Beautiful Vancouver, BC" class="w-2/3 mx-auto mb-6 rounded-lg shadow-md">
-
-        <p id="ABOUT-P1">
-          Rebase Technologies is an IT and business consultancy based in beautiful Vancouver, British Columbia.
-        </p>
-
-        <p id="ABOUT-P1">
-          Built on decades of hands-on experience with enterprise software and infrastructure, our partners have shaped
-          systems for global organizations, guided highly regulated industries, and tackled complex operational
-          challenges, learning along the way that lasting success comes from strong foundations, both technical and
-          operational.
-        </p>
-
-        <p id="ABOUT-P2">
-          We bring that perspective to every engagement, combining deep expertise with practical insight to help
-          organizations make technology decisions with clarity, confidence, and a long-term view.
-        </p>
-
-        <p id="ABOUT-P3">
-          Contact us today to schedule a no-fee consultation and see how we can help you Rebase your systems and
-          evolve with confidence.
-        </p>
-      </div>
-    </div>
-  </section> -->
 
   <footer class="bg-white dark:bg-gray-900 py-10 text-center text-sm">
     <p class="mb-4">
